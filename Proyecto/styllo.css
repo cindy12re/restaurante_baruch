@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Madimi+One&family=Oswald:wght@200..700&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Madimi+One&family=Oswald:wght@200..700&family=Shrikhand&display=swap');
+header{
+    background-color: rgb(221, 204, 178);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 125, 3);
+    image-orientation: unset;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+header ul{
+    justify-content: space-between;
+    
+    font-family: "Madimi One", sans-serif;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    display: flex   ;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+header ul li{
+    color: blanchedalmond;
+    font-size:30px ;
+    margin: 15px;
+    padding: 15px;
+  
+}
+a{
+    text-decoration:none;}
+
+h4{
+    font-family: "Shrikhand", serif;
+    color: rgb(255, 102, 0);
+    font-size: 30px;
+}
+p{
+    font-family:"Oswald", sans-serif;
+    color: rgb(78, 60, 51);
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 20px;
+    justify-content: space-around;
+
+}
+.container-2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 20px;
+    justify-content: space-around;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    border: 20px
+    margin: 70px;
+    padding: 50 px;
+    justify-items: center
+}

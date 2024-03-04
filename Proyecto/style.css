@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Shrikhand&display=swap');
+
+header{
+    background-color: rgb(221, 204, 178);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 125, 3);
+    image-orientation: unset;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+header ul{
+    justify-content: space-between;
+    
+    font-family: "Madimi One", sans-serif;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    display: flex   ;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+header ul li{
+    color: blanchedalmond;
+    font-size:30px ;
+    margin: 15px;
+    padding: 15px;
+  
+}
+a{
+    text-decoration:none;
+}
+.carousel-inner{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    width: 75%;
+   
+}
+
+
+body{
+    text-decoration: none;
+}
+.container{
+    padding: 30px;
+    font-family: "Shrikhand", serif;
+    color: rgb(255, 125, 3);
+    font-size:75px;
+    justify-content: center;
+    font-display:flex;
+    font-style: normal ;
+    text-align: center;
+}
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+}
+img{
+    width: 100px;
+}
